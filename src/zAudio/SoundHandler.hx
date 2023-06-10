@@ -86,7 +86,7 @@ class SoundHandler {
     /**
      * Removes the sound `snd` from the memory entirely, creating space for other things.
      * 
-     * This function renders the `snd` unuseable as it is destroyed.
+     * This function renders the `snd` unusable as it is destroyed.
      * 
      * This function will also automatically collect all other destroyed sounds (as it simply calls the garbage collector).
      * 
